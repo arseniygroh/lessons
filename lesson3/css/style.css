@@ -1,0 +1,33 @@
+@import url(reset.css);
+
+header > h1.hero-title {
+    color: blueviolet;
+}
+
+.navigation a {
+    color: rgb(48, 119, 95);
+}
+
+.about-section ul {
+    color: blue;
+}
+
+.title {
+    color: rgb(28, 157, 140);
+}
+
+#main > .about-section .main-text {
+    color: red;
+}
+
+.about-section ~ div p {
+    color: cadetblue;
+}
+
+.travelling-section .list {
+    color: rgb(255, 185, 99);
+}
+
+footer a {
+    color: chocolate;
+}
