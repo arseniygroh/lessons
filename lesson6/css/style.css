@@ -1,0 +1,192 @@
+@import url(reset.css);
+@import url(fonts.css);
+
+/* Krovato section */
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.section {
+    max-width: 1070px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+.hero-heading {
+    text-align: center;
+    color: #2b2929;
+    font-size: 40px;
+    line-height: 120%;
+    margin-bottom: 40px;
+}
+
+.hero-image {
+    width: 100%;
+    max-width: 1070px;
+    border-radius: 8px;
+    margin-bottom: 40px;
+}
+
+.text-hero {
+    color: #2b2929;
+    line-height: 30px;
+}
+
+.text-hero>p {
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    margin-top: 40px;
+    color: #2b2929;
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+
+.list li {
+    margin-bottom: 20px;
+    line-height: 30px;
+    color: #2b2929;
+    background-image: url(/images/Vector.png);
+    background-repeat: no-repeat;
+    padding-left: 40px;
+    background-position: left top;
+    background-size: 27px;
+}
+
+.text {
+    margin-top: 40px;
+    color: #2b2929;
+    line-height: 30px;
+}
+
+
+/* kid section */
+
+.kid-section {
+    font-family: "Quicksand", sans-serif;
+    background: url('/images/background.jpg') 0px 0px / cover no-repeat;
+    font-size: 0;
+}
+
+.kid-container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.kid-content-block {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 120px 0;
+    max-width: 600px;
+    margin-right: 100px;
+}
+
+.kid-title {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    max-width: 600px;
+    margin-bottom: 24px;
+}
+
+.kid-text {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    margin-bottom: 24px;
+}
+
+.kid-button {
+    color: #0d1216;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 25px;
+    border-radius: 8px;
+    padding: 10px 20px;
+    background: url('/images/head.png') 5px 15px / 16px no-repeat #fff;
+}
+
+.image {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.image img {
+    width: 100%;
+}
+
+/* Coral section */
+
+.coral-section {
+    margin-top: 100px;
+    padding-top: 30px;
+    background: url(/images/flower-left.png) 0 80% no-repeat, url(/images/flower-right.png) 100% 65% no-repeat hsl(240deg 5% 96%);
+}
+
+.logo {
+    margin: 0 auto;
+    max-width: 180px;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.coral-container {
+    padding: 155px 0;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-size: 0;
+}
+
+.coral-content-block {
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 682px;
+    margin-right: 100px;
+}
+
+.coral-title {
+    color: #000;
+    font-size: 74px;
+    line-height: 55px;
+    font-weight: 300;
+    margin-bottom: 50px;
+}
+
+.coral-text {
+    color: #000;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 55px;
+    margin-bottom: 66px;
+    text-transform: capitalize;
+}
+
+.coral-button {
+    padding: 20px 27px 20px 62px;
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+    text-transform: capitalize;
+    background: url(/images/icon.png) 26px center / 30px no-repeat, #1E2832;
+    min-height: 30px;
+}
+
+.coral-image {
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 300px;
+}
+
+.coral-image img {
+    border-radius: 160px 0;
+    box-shadow: 18px 20px 0 -2px hsl(240deg 5% 96%),
+        18px 20px hsl(0deg 0% 0% / 25%);
+    overflow: hidden;
+}
